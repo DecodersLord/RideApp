@@ -1,0 +1,35 @@
+{
+  "required" : [ "customerEmailAddress", "customerFirstName", "customerLastName", "customerPhoneNumber" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "customerEmailAddress" : {
+      "title" : "customerEmailAddress",
+      "description" : "Get Contact's email address",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerFirstName" : {
+      "title" : "customerFirstName",
+      "description" : "Get Contact's first name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerLastName" : {
+      "title" : "customerLastName",
+      "description" : "Get Contact's last name",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "customerPhoneNumber" : {
+      "title" : "customerPhoneNumber",
+      "description" : "Get contact's phone number",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

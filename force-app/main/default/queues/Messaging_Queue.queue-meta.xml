@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Messaging Queue</name>
+    <queueMembers>
+        <users>
+            <user>book_a_ride_agent@00dg1000007bqup.ext</user>
+            <user>test-dbvnsxnnn5ja@example.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Service_Agent_Config</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

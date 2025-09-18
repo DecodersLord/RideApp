@@ -1,0 +1,23 @@
+{
+  "orgName": "Demo company",
+  "edition": "Developer",
+  "features": ["Communities","Sites", "EnableSetPasswordInApi", "Einstein1AIPlatform"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableLightningPreviewPref": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "einsteinGptSettings" : {
+      "enableEinsteinGptPlatform" : true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    }
+  }
+}

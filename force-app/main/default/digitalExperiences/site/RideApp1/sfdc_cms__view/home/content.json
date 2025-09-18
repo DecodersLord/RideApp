@@ -1,0 +1,93 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "dxpStyle" : {
+              "margin" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              },
+              "padding" : {
+                "bottom" : "0px",
+                "left" : "0px",
+                "right" : "0px",
+                "top" : "0px"
+              }
+            },
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "none",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"77a02e1d-ac76-4bea-909f-6408be430b99\",\"columns\":[{\"UUID\":\"91f71b76-55d8-4267-bd04-a71dc8bb88ea\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "d2fd1524-514f-4acc-a1b4-91a5af7f62a4",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "deploymentName" : "Service_Agent_Channel_1",
+                "hideChatButtonOnLoad" : "Default",
+                "isExpSiteAuthMode" : false,
+                "scrtUrl" : "https://customization-customer-6752-dev-ed.scratch.my.salesforce-scrt.com",
+                "siteEndpoint" : "https://customization-customer-6752-dev-ed.scratch.my.site.com/ESWServiceAgentChannel1756746515005"
+              },
+              "definition" : "experience_messaging:embeddedMessaging",
+              "id" : "f993944c-e770-4756-94b4-27d8ff44da20",
+              "type" : "component"
+            } ],
+            "id" : "91f71b76-55d8-4267-bd04-a71dc8bb88ea",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "77a02e1d-ac76-4bea-909f-6408be430b99",
+          "type" : "component"
+        } ],
+        "id" : "b924547a-926c-460a-a285-34f26b3acada",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "dxpStyle" : { },
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "dea0aa86-ec25-4705-ba1b-5badbce52216",
+          "type" : "component"
+        } ],
+        "id" : "66487ddc-45f7-4c6f-8219-1799386451b8",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "0b2287ad-5506-4048-b2fe-1c920756dc82",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

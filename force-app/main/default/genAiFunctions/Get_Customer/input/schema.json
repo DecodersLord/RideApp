@@ -1,0 +1,21 @@
+{
+  "required" : [ "inputEmail", "inputName" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "inputEmail" : {
+      "title" : "inputEmail",
+      "description" : "The email address associated to the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "inputName" : {
+      "title" : "inputName",
+      "description" : "The name associated to the user",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

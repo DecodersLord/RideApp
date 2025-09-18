@@ -1,0 +1,38 @@
+# --- EXCLUDE ORG NOISE ---
+
+# Profiles, permission sets, and other org-specific configs
+**/profiles/*
+**/permissionsets/*
+**/settings/*
+
+# Standard objects and value sets you didn't customize
+**/standardObjects/*
+**/standardValueSets/*
+
+# Translations and labels
+**/translations/*
+**/objectTranslations/*
+
+# Managed package metadata
+**/installedPackages/*
+**/applications/namespace__*
+
+# Misc Salesforce-generated metadata
+**/authproviders/*
+**/brandingSets/*
+**/pathAssistants/*
+**/weblinks/*
+**/workflowRules/*
+**/remoteSiteSettings/*
+**/quickActions/*
+**/email/*
+**/notificationtypes/*
+**/reportTypes/*
+**/reports/*
+**/dashboards/*
+
+# --- LOCAL DEV FILES ---
+.sfdx/
+.vscode/
+.idea/
+*.log
