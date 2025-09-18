@@ -1,18 +1,46 @@
-# Salesforce DX Project: Next Steps
+# 🤖 Book A Ride – Salesforce Agentforce Chatbot App  
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## 📌 Overview  
+**Book A Ride** is a Salesforce-native demo app that integrates with **Agentforce (Einstein Copilot / Bots)** to simulate a **chat-based ride booking system**.  
 
-## How Do You Plan to Deploy Your Changes?
+Users can interact with a **Salesforce chatbot** to book rides, select vehicle types, schedule times, and track bookings — all without leaving Salesforce.  
+This project demonstrates **real-world conversational AI + Salesforce integration patterns**.  
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+---
 
-## Configure Your Salesforce DX Project
+## 🎯 Features  
+- 💬 **Agentforce Chatbot** that guides users through ride booking.  
+- 🚗 **Ride Selection** – choose from Car, SUV, or Bike.  
+- 📅 **Ride Scheduling** – select pickup time & location.  
+- 📊 **Ride History** – view past and upcoming bookings.  
+- ⚡ **Apex Services + LWC** to extend chatbot actions.  
+- 🔐 **Named Credentials** + (optional) **API integration** for external ride providers.  
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+---
 
-## Read All About It
+## 🛠️ Tech Stack  
+- **Salesforce Agentforce / Einstein Copilot** for chatbot interactions.  
+- **Flows** to automate booking actions triggered by the chatbot.  
+- **Apex** for custom business logic and external API callouts.  
+- **Lightning Web Components (LWC)** for interactive UI.  
+- **Platform Cache** for storing temporary authentication tokens.  
+- **Named Credentials** for secure API integration.  
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+---
+
+## 📸 Chatbot Flow (Example)  
+**User**: "Book me a ride for tomorrow at 9 AM"  
+**Agentforce Bot**: "Sure! What type of ride would you like: Car, SUV, or Bike?"  
+**User**: "Car"  
+**Agentforce Bot**: "Your ride has been scheduled for 9 AM tomorrow. Confirmation ID: R12345 🚗"  
+
+---
+
+## 🚀 Installation & Setup  
+1. Clone this repo or deploy to your Salesforce org with **SFDX**.
+2. Set up **Agentforce / Einstein Bot** with dialog flows that call this app’s Apex/Flow actions.  
+3. (Optional) Configure **Named Credentials** if you want to simulate integration with an external ride provider API.  
+4. Test ride booking via the **Agentforce chatbot** in Salesforce.  
+ 
+## 📽️ Video Walkthrough
+https://youtu.be/JVMPXSqOtNE
